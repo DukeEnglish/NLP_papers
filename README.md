@@ -59,45 +59,91 @@ Journals：
 
 ## Papers in NLP
 
-I will introduce applications&core techs and DL respectively because some methods in App&Core need DL background. I also offer paper review and code for each paper based on Pytorch. (I give up on Tensorflow right now… @.@). Note: Because I don't really know each field below, I didn't give my opinion for some of items.
+I will introduce applications&core techs and DL respectively because some methods in App&Core need DL background. I also offer paper review and code for each paper based on Pytorch. (I give up on Tensorflow right now… @.@). Note: Because I don't really know each field below, I didn't give my opinion for some of items. (I wrote reviews for some of them)
 
-Applications & core techs:
+##### Applications & core techs:
 
-| Item                           | Papers                                                       | NOTE |
-| ------------------------------ | ------------------------------------------------------------ | ---- |
-| Machine Translation            | - [Sequence to Sequence Learning with Neural Networks. (Sutskever, Vinyals, Le)](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) <br />- [Neural Machine Translation by Jointly Learning to Align and Translate. (Bahdanau, Cho, Bengio)](https://arxiv.org/pdf/1409.0473.pdf)<br /><br />- [Six Challenges for Neural Machine Translation. (Koehn and Knowles)](http://www.aclweb.org/anthology/W17-3204) <br />[What does Attention in Neural Machine Translation Pay Attention to? (Ghader and Monz)](https://arxiv.org/pdf/1710.03348.pdf)<br /><br /><br />[On Using Very Large Target Vocabulary for Neural Machine Translation. (Jean, Cho, Memisevic, Bengio)](http://www.aclweb.org/anthology/P15-1001) <br />[Neural Machine Translation of Rare Words with Subword Units. (Sennrich, Haddow, Birch)](http://www.aclweb.org/anthology/P16-1162.pdf)<br /><br /><br />[RECURRENT NEURAL NETWORK REGULARIZATION](https://arxiv.org/pdf/1409.2329.pdf)<br /><br /><br />[Effective Approaches to Attention-based Neural Machine Translation](https://www.aclweb.org/anthology/D15-1166)<br /><br />[NEURAL MACHINE TRANSLATION<br/>BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://arxiv.org/pdf/1409.0473.pdf) |      |
-| Natural Language Understanding |                                                              |      |
-| Question Answering             |                                                              |      |
-| Information Retrieval          |                                                              |      |
-| Dialogue Systems               |                                                              |      |
-| Information Extraction         |                                                              |      |
-| Summarization                  |                                                              |      |
-| Text classification            |                                                              |      |
-| Sentiment Analysis             |                                                              |      |
-|                                |                                                              |      |
-| Vector space                   |                                                              |      |
-| Textual entailment             |                                                              |      |
-| Word sense disambiguation      |                                                              |      |
-| Coreference resolution         |                                                              |      |
-| Named-entity recognition       |                                                              |      |
-| Morphological analysis         |                                                              |      |
-| Part-of-speech tagging         |                                                              |      |
-| Syntactic parsing              |                                                              |      |
+Machine Translation:
+
+- [Sequence to Sequence Learning with Neural Networks. (Sutskever, Vinyals, Le)](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) , review
+- [Neural Machine Translation by Jointly Learning to Align and Translate. (Bahdanau, Cho, Bengio)](https://arxiv.org/pdf/1409.0473.pdf)
+-  [Six Challenges for Neural Machine Translation. (Koehn and Knowles)](http://www.aclweb.org/anthology/W17-3204) 
+- [What does Attention in Neural Machine Translation Pay Attention to? (Ghader and Monz)](https://arxiv.org/pdf/1710.03348.pdf)
+- [On Using Very Large Target Vocabulary for Neural Machine Translation. (Jean, Cho, Memisevic, Bengio)](http://www.aclweb.org/anthology/P15-1001) 
+- [Neural Machine Translation of Rare Words with Subword Units. (Sennrich, Haddow, Birch)](http://www.aclweb.org/anthology/P16-1162.pdf)
+- [RECURRENT NEURAL NETWORK REGULARIZATION](https://arxiv.org/pdf/1409.2329.pdf)
+- [Effective Approaches to Attention-based Neural Machine Translation](https://www.aclweb.org/anthology/D15-1166)
+- [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://arxiv.org/pdf/1409.0473.pdf)
+
+NLU:
+
+- [Finding Function in Form: Compositional Character Models for Open Vocabulary Word Representation (Ling et al. 2015)](https://aclweb.org/anthology/D15-1176)
+- [From Characters to Words to in Between: Do We Capture Morphology? (Vania and Lopez 2017)](http://aclweb.org/anthology/P17-1184)
+- [Simple and Accurate Dependency Parsing Using Bidirectional LSTM Feature Representations (Kiperwasser and Goldberg, 2016)](https://aclweb.org/anthology/Q16-1023)
+- [Recurrent neural network grammars (Dyer et al. 2016)](https://arxiv.org/pdf/1602.07776.pdf)
+- [What do RNNGs learn about syntax? (Kuncoro et al. 2017)](http://www.aclweb.org/anthology/E17-1117)
+- [End-to-end Learning of Semantic Role Labeling Using Recurrent Neural Networks (Zhou & Xu, 2015)](http://www.aclweb.org/anthology/P15-1109)
+- [Language to logical form with neural attention (Dong & Lapata, 2016)](http://www.aclweb.org/anthology/P16-1004)
+- [Background: Jurafsky and Martin, Intro to Ch. 28 and section 28.2 (third edition)](https://web.stanford.edu/~jurafsky/slp3/)
+- [A Fully Bayesian Approach to Unsupervised Part-of-Speech Tagging (Goldwater & Griffiths, 2007)](http://www.aclweb.org/anthology/P/P07/P07-1094.pdf)
+- [The Social Impact of Natural Language Processing (Hovy and Spruit, 2016)](http://www.aclweb.org/anthology/P16-2096)
+- [Semantics derived automatically from language corpora contain human-like biases (Caliskan et al., 2017)](http://opus.bath.ac.uk/55288/4/CaliskanEtAl_authors_full.pdf)
+- [Man is to Computer Programmer as Woman is to Homemaker? Debiasing Word Embeddings (Bolukbasi et al., 2016)](http://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-debiasing-word-embeddings.pdf)
+
+Question Answering  
 
 
 
-Deep Learning for NLP:
+Information Retrieval      
+
+
+
+Dialogue Systems
+
+
+
+Information Extraction     
+
+
+
+Summarization      
+
+
+
+Text classification      
+
+
+
+Sentiment Analysis
+
+
+
+Named-entity recognition      
+
+
+
+Part-of-speech tagging
+
+
+
+
+
+##### Deep Learning for NLP:
 
 Some techs are developed for generaly NLP problem.
 
-| Item                              | Papers                                                       |      |
-| --------------------------------- | ------------------------------------------------------------ | ---- |
-| Sentence represent                |                                                              |      |
-| Basic Embedding Model             |                                                              |      |
-| CNN(Convolutional Neural Network) |                                                              |      |
-| RNN(Recurrent Neural Network)     |                                                              |      |
-| Attention Mechanism               |                                                              |      |
-| Model based on Transformer        | - [Attention Is All You Need(2017)](https://arxiv.org/abs/1810.04805), [Transformer_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-1.Transformer/Transformer_Torch.ipynb), [Transformer(Greedy_decoder)_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-1.Transformer/Transformer(Greedy_decoder)_Torch.ipynb),<br />- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding(2018)](https://arxiv.org/abs/1810.04805), [BERT_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-2.BERT/BERT_Torch.ipynb), |      |
+Basic Embedding Model      
+
+CNN(Convolutional Neural Network)      
+
+RNN(Recurrent Neural Network)      
+
+Attention Mechanism      
+
+Model based on Transformer：
+
+- [Attention Is All You Need(2017)](https://arxiv.org/abs/1810.04805), [Transformer_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-1.Transformer/Transformer_Torch.ipynb), [Transformer(Greedy_decoder)_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-1.Transformer/Transformer(Greedy_decoder)_Torch.ipynb),
+- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding(2018)](https://arxiv.org/abs/1810.04805), [BERT_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-2.BERT/BERT_Torch.ipynb), 
 
 
 
