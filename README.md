@@ -18,7 +18,7 @@ Usually, NLP (Natural Lanugage Processing) contains many fields and we view NLP 
 | • Vector space              | • Natural Language Understanding |
 | ...                         | ...                              |
 
-[TOC]
+
 
 
 
@@ -59,30 +59,30 @@ Journals：
 
 ## Papers in NLP
 
-I will introduce applications&core techs and DL respectively because some methods in App&Core need DL background. I also offer paper review and code for each paper based on Pytorch. (I give up on Tensorflow right now… @.@)
+I will introduce applications&core techs and DL respectively because some methods in App&Core need DL background. I also offer paper review and code for each paper based on Pytorch. (I give up on Tensorflow right now… @.@). Note: Because I don't really know each field below, I didn't give my opinion for some of items.
 
 Applications & core techs:
 
-| Item                           | Papers                         | NOTE |
-| ------------------------------ | ------------------------------ | ---- |
-| Machine Translation            | SMT<br /><br />NMT<br /><br /> |      |
-| Question Answering             |                                |      |
-| Natural Language Understanding |                                |      |
-| Information Retrieval          |                                |      |
-| Dialogue Systems               |                                |      |
-| Information Extraction         |                                |      |
-| Summarization                  |                                |      |
-| Text classification            |                                |      |
-| Sentiment Analysis             |                                |      |
-|                                |                                |      |
-| Vector space                   |                                |      |
-| Textual entailment             |                                |      |
-| Word sense disambiguation      |                                |      |
-| Coreference resolution         |                                |      |
-| Named-entity recognition       |                                |      |
-| Morphological analysis         |                                |      |
-| Part-of-speech tagging         |                                |      |
-| Syntactic parsing              |                                |      |
+| Item                           | Papers                                                       | NOTE |
+| ------------------------------ | ------------------------------------------------------------ | ---- |
+| Machine Translation            | - [Sequence to Sequence Learning with Neural Networks. (Sutskever, Vinyals, Le)](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) <br />- [Neural Machine Translation by Jointly Learning to Align and Translate. (Bahdanau, Cho, Bengio)](https://arxiv.org/pdf/1409.0473.pdf)<br /><br />- [Six Challenges for Neural Machine Translation. (Koehn and Knowles)](http://www.aclweb.org/anthology/W17-3204) <br />[What does Attention in Neural Machine Translation Pay Attention to? (Ghader and Monz)](https://arxiv.org/pdf/1710.03348.pdf)<br /><br /><br />[On Using Very Large Target Vocabulary for Neural Machine Translation. (Jean, Cho, Memisevic, Bengio)](http://www.aclweb.org/anthology/P15-1001) <br />[Neural Machine Translation of Rare Words with Subword Units. (Sennrich, Haddow, Birch)](http://www.aclweb.org/anthology/P16-1162.pdf)<br /><br /><br />[RECURRENT NEURAL NETWORK REGULARIZATION](https://arxiv.org/pdf/1409.2329.pdf)<br /><br /><br />[Effective Approaches to Attention-based Neural Machine Translation](https://www.aclweb.org/anthology/D15-1166)<br /><br />[NEURAL MACHINE TRANSLATION<br/>BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://arxiv.org/pdf/1409.0473.pdf) |      |
+| Natural Language Understanding |                                                              |      |
+| Question Answering             |                                                              |      |
+| Information Retrieval          |                                                              |      |
+| Dialogue Systems               |                                                              |      |
+| Information Extraction         |                                                              |      |
+| Summarization                  |                                                              |      |
+| Text classification            |                                                              |      |
+| Sentiment Analysis             |                                                              |      |
+|                                |                                                              |      |
+| Vector space                   |                                                              |      |
+| Textual entailment             |                                                              |      |
+| Word sense disambiguation      |                                                              |      |
+| Coreference resolution         |                                                              |      |
+| Named-entity recognition       |                                                              |      |
+| Morphological analysis         |                                                              |      |
+| Part-of-speech tagging         |                                                              |      |
+| Syntactic parsing              |                                                              |      |
 
 
 
@@ -98,55 +98,49 @@ Some techs are developed for generaly NLP problem.
 | RNN(Recurrent Neural Network)     |                                                              |      |
 | Attention Mechanism               |                                                              |      |
 | Model based on Transformer        | - [Attention Is All You Need(2017)](https://arxiv.org/abs/1810.04805), [Transformer_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-1.Transformer/Transformer_Torch.ipynb), [Transformer(Greedy_decoder)_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-1.Transformer/Transformer(Greedy_decoder)_Torch.ipynb),<br />- [BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding(2018)](https://arxiv.org/abs/1810.04805), [BERT_Torch.ipynb](https://colab.research.google.com/github/graykode/nlp-tutorial/blob/master/5-2.BERT/BERT_Torch.ipynb), |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
-|                                   |                                                              |      |
 
 
 
 ## Books in NLP
 
-It should be hard to read papers directly without background. I recommend people to read a few of books below before following newest papers.
+It should be hard to read papers directly without background. I recommend people to read a few of books below before following newest papers (I stole them from Internet and most of them are from the course website in some Universities ).
 
-\1.        信息检索导论
+1. Dan Jurafsky and James H. Martin. Speech and Language Processing (3rd ed. draft)
 
-\2.        统计自然语言处理第二版
+2. Jacob Eisenstein. Natural Language Processing
 
-**3.**       **Dan Jurafsky and James H. Martin. Speech and Language Processing (3rd ed. draft)**
+3. Yoav Goldberg. A Primer on Neural Network Models for Natural Language Processing
+4. Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning
+5. NMT：<https://arxiv.org/pdf/1709.07809.pdf> (This is an addition for Statistic Machine Translation)
+6. [Christopher D. Manning](https://link.zhihu.com/?target=http%3A//nlp.stanford.edu/~manning/), [Prabhakar Raghavan](https://link.zhihu.com/?target=http%3A//theory.stanford.edu/~pragh/), and [Hinrich Schütze](https://link.zhihu.com/?target=http%3A//www-csli.stanford.edu/~hinrich). 2008.[Introduction to Information Retrieval](https://link.zhihu.com/?target=http%3A//nlp.stanford.edu/IR-book/). Cambridge University Press.
+7. [Linguistic Fundamentals for Natural Language Processing](http://www.morganclaypool.com/doi/abs/10.2200/S00493ED1V01Y201303HLT020) by Emily Bender. 
 
-**4.**       **Jacob Eisenstein. Natural Language Processing**
+Dr Zhiyuan Liu recommended these books for Chinese student.
 
-**5.**       **Yoav Goldberg. A Primer on Neural Network Models for Natural Language Processing（爱丁堡、斯坦福、berkelry**
+NLP:
 
-**6.**       **Ian Goodfellow, Yoshua Bengio, and Aaron Courville. Deep Learning**
-
-\7.        MT：<https://arxiv.org/pdf/1709.07809.pdf>
-
-\8.        [PS] James Pustejovsky and Amber Stubbs, Natural Language Annotation for Machine Learning (2012) [Available for free on campus/VPN here]
-
-\9.        [Christopher D. Manning](https://link.zhihu.com/?target=http%3A//nlp.stanford.edu/~manning/), [Prabhakar Raghavan](https://link.zhihu.com/?target=http%3A//theory.stanford.edu/~pragh/), and [Hinrich Schütze](https://link.zhihu.com/?target=http%3A//www-csli.stanford.edu/~hinrich). 2008.[Introduction to Information Retrieval](https://link.zhihu.com/?target=http%3A//nlp.stanford.edu/IR-book/). Cambridge University Press.
-
-\10.     [Christopher D. Manning](https://link.zhihu.com/?target=http%3A//nlp.stanford.edu/~manning/) and [Hinrich Schütze](https://link.zhihu.com/?target=http%3A//www-csli.stanford.edu/~hinrich). 1999. [Foundations of Statistical Natural Language Processing](https://link.zhihu.com/?target=http%3A//nlp.stanford.edu/fsnlp/promo/). Cambridge, MA: MIT Press.
+1. 统计自然语言处理
+2. 信息检索导论
 
 ML:
 
-\1.        统计机器学习-李航
+1. 统计机器学习-李航
 
-\2.        机器学习-周志华
+2. 机器学习-周志华
 
 DL：
 
-\1.        Michael A. Nielsen. Neural Networks and Deep Learning
+1. Michael A. Nielsen. Neural Networks and Deep Learning
 
-\2.        Eugene Charniak. Introduction to Deep Learning
+2. Eugene Charniak. Introduction to Deep Learning
 
 AI：
 
-\1.        人工智能：一种现代的方法
+1. 人工智能：一种现代的方法
 
 社会计算：
 
-\2.        网络、群体与市场：揭示高度互联世界的行为原理与效应机制
+2. 网络、群体与市场：揭示高度互联世界的行为原理与效应机制
 
 必读1.4部分
 
