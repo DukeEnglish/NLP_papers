@@ -1,6 +1,6 @@
 # Papers for NLP
 
- [![](https://jaywcjlove.github.io/sb/license/mit.svg)](#)
+[![](https://jaywcjlove.github.io/sb/license/mit.svg)](#) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu) [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 
 NLP is a popular field right now and people are trying to step in this amazing world. I collect some materials here including conferences, papers and typical books. 
 
@@ -28,13 +28,11 @@ Usually, NLP (Natural Lanugage Processing) contains many fields and we view NLP 
 
   The ACL has a European ([EACL](https://en.wikipedia.org/w/index.php?title=European_Chapter_of_the_Association_for_Computational_Linguistics&action=edit&redlink=1))[[2\]](https://en.wikipedia.org/wiki/Association_for_Computational_Linguistics#cite_note-2) and a North American ([NAACL](https://en.wikipedia.org/wiki/North_American_Chapter_of_the_Association_for_Computational_Linguistics)) chapter.
 
-- NIPS
+- [NIPS](https://en.wikipedia.org/wiki/Conference_on_Neural_Information_Processing_Systems): The Conference and Workshop on **Neural Information Processing Systems** (abbreviated as **NeurIPS** and formerly **NIPS**) is a machine learning and computational neuroscience conference held every December. The conference is currently a double-track meeting (single-track until 2015) that includes invited talks as well as oral and poster presentations of refereed papers, followed by parallel-track workshops that up to 2013 were held at ski resorts.
 
-- AAAI
+- [AAAI](https://en.wikipedia.org/wiki/Association_for_the_Advancement_of_Artificial_Intelligence): The **Association for the Advancement of Artificial Intelligence** (**AAAI**) is an international scientific society devoted to promote research in, and responsible use of, [artificial intelligence](https://en.wikipedia.org/wiki/Artificial_intelligence). AAAI also aims to increase public understanding of artificial intelligence (AI), improve the teaching and training of AI practitioners, and provide guidance for research planners and funders concerning the importance and potential of current AI developments and future directions.
 
-- COLING
-
-- SIGIR
+- [SIGIR](https://en.wikipedia.org/wiki/Special_Interest_Group_on_Information_Retrieval): **SIGIR** is the [Association for Computing Machinery](https://en.wikipedia.org/wiki/Association_for_Computing_Machinery)'s **Special Interest Group on Information Retrieval**. The scope of the group's specialty is the theory and application of computers to the acquisition, organization, storage, [retrieval](https://en.wikipedia.org/wiki/Information_retrieval) and distribution of information; emphasis is placed on working with non-numeric information, ranging from natural language to highly structured data bases.
 
 - [NAACL](https://en.wikipedia.org/wiki/North_American_Chapter_of_the_Association_for_Computational_Linguistics): North American chapter of ACL.
 
@@ -48,22 +46,13 @@ Journals：
 
 -  [Computational Linguistics](http://www.transacl.org/): Transactions of ACL. It is the primary forum for research on computational linguistics and [natural language processing](https://en.wikipedia.org/wiki/Natural_language_processing). Since 1988, the journal has been published for the ACL by [MIT Press](https://en.wikipedia.org/wiki/MIT_Press). 
 
-中文：
-
-- CCL：
-- 全国青年计算语言学研讨会（YCCL）
-
-- 全国信息检索学术会议（CCIR）
-
-- 全国机器翻译研讨会（CWMT）
-
 ## Papers in NLP
 
 I will introduce applications&core techs and DL respectively because some methods in App&Core need DL background. I also offer paper review and code for each paper based on Pytorch. (I give up on Tensorflow right now… @.@). Note: Because I don't really know each field below, I didn't give my opinion for some of items. (I wrote reviews for some of them)
 
 ##### Applications & core techs:
 
-Machine Translation:
+Machine Translation: [Should be sorted by time from old to young]
 
 - [Sequence to Sequence Learning with Neural Networks. (Sutskever, Vinyals, Le)](https://papers.nips.cc/paper/5346-sequence-to-sequence-learning-with-neural-networks.pdf) , review
 - [Neural Machine Translation by Jointly Learning to Align and Translate. (Bahdanau, Cho, Bengio)](https://arxiv.org/pdf/1409.0473.pdf)
